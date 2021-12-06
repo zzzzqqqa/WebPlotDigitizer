@@ -13,7 +13,7 @@ MAINTAINER William Denney <wdenney@humanpredictions.com>
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive \
        apt-get install --yes --no-install-recommends python3-jinja2 python3-babel \
-       git git-lfs unzip wget ca-certificates python3 xz-utils libxml2 npm golang \
+       git git-lfs unzip wget ca-certificates python3 xz-utils libxml2 npm golang nodejs \
        sudo tzdata python3-distutils \
     && DEBIAN_FRONTEND=noninteractive \
        ln -fs /usr/share/zoneinfo/UTC /etc/localtime \
