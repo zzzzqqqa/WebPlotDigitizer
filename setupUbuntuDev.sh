@@ -6,7 +6,7 @@ export http_proxy=http://proxy.eu.novartis.net:2010
 export PROXY_HTTP=http://proxy.eu.novartis.net:2010
 
 # install Ubuntu packages
-sudo -E apt install \
+apt install \
      python3-jinja2 \
      python3-babel \
      wine-stable \
