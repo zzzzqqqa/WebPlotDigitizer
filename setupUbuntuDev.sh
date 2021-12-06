@@ -3,7 +3,7 @@
 # Setup an Ubuntu 20.04 system for development
 
 # install Ubuntu packages
-sudo apt install \
+sudo -E apt install \
      python3-jinja2 \
      python3-babel \
      wine-stable \
